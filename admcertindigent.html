@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body class = "admcertdetails">
+        <div class = "headcon">
+            <img class = "logocon" alt = "Brgy Logo" src = "images/logo.png">
+            <h1 class = "brgy">Information System of Barangay Daang Bakal</h1>
+        </div>
+        <div class = "first">
+            <div class = "second">
+                <div class = "bodycon">
+                    <form name = "indigent" action = "https://formsubmit.co/7883799620c9c8df0b838adb33e054a3" target = "_blank" method = "POST">
+                        <div class = "certformcont">
+                            <div class = "header">
+                                <p>CERTIFICATE OF BEING INDIGENT APPLICATION</p>
+                            </div>
+                            <div class = "rowcont">
+                                <p class = "labeltxt">REQUESTER USERNAME :</p>
+                                <p class = "datatxt">hvisperas@gmail.com</p>
+                            </div>
+                            <div class = "rowcont">
+                                <p class = "labeltxt">REQUESTER FULL NAME :</p>
+                                <p class = "datatxt">harold russell p. visperas</p>
+                            </div>
+                            <div class = "rowcont">
+                                <div>
+                                    <div>
+                                        <p class = "labeltxt">REQUESTER VALID ID :</p>
+                                    </div>
+                                    <div class = imagecont>
+                                        <img class = "img" id = "cert1" alt="Add Image" src="images/admannc-icon1.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "rowcont">
+                                <div>
+                                    <div>
+                                        <p class = "labeltxt">BARANGAY CLEARANCE :</p>
+                                    </div>
+                                    <div class = imagecont>
+                                        <img class = "img" id = "cert2" alt="Add Image" src="images/admannc-icon1.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "rowcont">
+                                <div>
+                                    <div class = "rowcont2">
+                                        <p class = "labeltxt">CURRENT STATUS :</p>
+                                        <p class = "datatxt2">UNVERIFIED</p>
+                                    </div>
+                                    <div class = "rowcont2">
+                                        <p class = "labeltxt">Change application status to : </p>
+                                        <div class = "datatxt3">
+                                            <input type = "radio" name = "certstatus" required = "true" checked = "true" value = "unverified">
+                                            <label for = "unverified">Unverified</label>
+                                            <input type = "radio" class = "moveright" name = "certstatus" required = "true" value = "processing">
+                                            <label for = "processing">Processing</label>
+                                            <input type = "radio" class = "moveright" name = "certstatus" required = "true" value = "forpickup">
+                                            <label for = "forpickup">For Pickup</label>
+                                            <input type = "radio" class = "moveright" name = "certstatus" required = "true" value = "denied">
+                                            <label for = "denied">Denied</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "rowcont2">
+                                <div class = "btncont">
+                                    <input type = "submit" class = "leftbtn" value = "EDIT" onclick = "window.location.href = 'admcertificates.html'"/>
+                                    <input type = "reset" class = "rightbtn" value = "CANCEL" onclick = "window.location.href = 'admcertificates.html'"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

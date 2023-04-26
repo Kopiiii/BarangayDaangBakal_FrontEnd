@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="main" onload="initClock()">
+        <div class="headcon">
+            <div class="logocon">
+                <img alt="brgy logo" src="images/logo.png"/>
+            </div>
+            <h1 class="brgy">Information System of Barangay Daang Bakal</h1>
+            <div class="toptime">
+                <span id = "hour">00</span> :
+                <span id = "minute">00</span>
+                <span id = "period">AM</span>
+            </div>
+        </div>
+        <div class="headcon">
+            <ul>
+                <li onclick="window.location.href='membhome.html'">Home</li>
+                <li onclick="window.location.href='membpersonalinfo.html'">Residents Information</li>
+                <li onclick="window.location.href='membannouncements.html'">Announcement</li>
+                <li onclick="window.location.href='membbarangayofficials.html'">Barangay Officials</li>
+                <li onclick="window.location.href='membcertificates.html'">Certificates</li>
+                <li onclick="window.location.href='mainlogin.html'">LOGOUT</li>
+            </ul>
+            <div class="bottomtime">
+                <span id = "day">Day</span>,
+                <span id = "month">Month</span>
+                <span id = "date">00</span>
+                <span id = "year">Year</span>
+            </div>
+        </div>
+        <div class = "flex-container">
+            <div class = "announce">
+                <div class = "bodycon">
+                    <div class = "header">
+                        <h2 class = "headtxt">Announcements</h2>
+                    </div>
+                    <div class = "posts">
+                        <div class = "crosswise">
+                            <div class = "crosscont">
+                                <h3>News Section 1</h3>
+                                <img class = "img" alt="News Image" src="images/annc-img1.png"/>
+                                <p class = "txt">ATTENTION BRGY. DAANG-BAKAL!<br><br>
+                                    Sa darating na ECQ at magkakaroon ng public address sa bawat bahay upang alamin kung sino pa ang hindi nababakunahan. Kung willing magpabakuna at hindi pa nakapagrehistro, isasakay na sa sasakyan ng barangay papunta sa vaccination site. Mag-register sa MANDAVAX para mas madali ang proseso.<br><br>
+                                    - AGAD AGAD BAKUNA AGAD sa DAANG BAKAL -</p>
+                            </div>
+                            <div class = "crosscont">
+                                <h3>News Section 2</h3>
+                                <img class = "img" alt="News Image" src="images/annc-img1.png"/>
+                                <p class = "txt">ATTENTION BRGY. DAANG-BAKAL!<br><br>
+                                    Sa darating na ECQ at magkakaroon ng public address sa bawat bahay upang alamin kung sino pa ang hindi nababakunahan. Kung willing magpabakuna at hindi pa nakapagrehistro, isasakay na sa sasakyan ng barangay papunta sa vaccination site. Mag-register sa MANDAVAX para mas madali ang proseso.<br><br>
+                                    - AGAD AGAD BAKUNA AGAD sa DAANG BAKAL -</p>
+                            </div>
+                            <div class = "crosscont">
+                                <h3>Events</h3>
+                                <img class = "img" alt="News Image" src="images/annc-img2.png"/>
+                                <p class = "txt">PAALALA!!!<br><br>
+                                BIGATING AYUDA ang hatid ko sa inyo ngayong Setyembre!Mandaleños, mag-register na sa ating raffle para magkaroon ng chance na manalo ng GROCERY PACKS! 15 winners sa bawat barangay ang makakakuha ng ating premyo kaya wag nang magpahuli!<br><br>
+                                Mag-register na sa <span onclick="window.location.href='https://forms.gle/1v8WxhAPBASmVZQXA'">https://forms.gle/1v8WxhAPBASmVZQXA</span></p>
+                            </div>
+                            <div class = "crosscont">
+                                <h3>Events</h3>
+                                <img class = "img" alt="News Image" src="images/annc-img2.png"/>
+                                <p class = "txt">PAALALA!!!<br><br>
+                                BIGATING AYUDA ang hatid ko sa inyo ngayong Setyembre!Mandaleños, mag-register na sa ating raffle para magkaroon ng chance na manalo ng GROCERY PACKS! 15 winners sa bawat barangay ang makakakuha ng ating premyo kaya wag nang magpahuli!<br><br>
+                                Mag-register na sa <span onclick="window.location.href='https://forms.gle/1v8WxhAPBASmVZQXA'">https://forms.gle/1v8WxhAPBASmVZQXA</span></p>
+                            </div>
+                            <div class = "footer"></div>
+                        </div>
+                        <div class = "lengthwise">
+                            <div class = "lengthcont">
+                                <h3>Flash News</h3>
+                                <img class = "img" alt="News Image" src="images/annc-img3.png"/>
+                                <img class = "img" alt="News Image" src="images/annc-img4.png"/>
+                            </div>
+                            <div class = "footer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "sidecon">
+                <h2 class = "contact">CONTACT NUMBERS</h2>
+                <div class = "contactbox">
+                    <h3>PHONE</h3>
+                    <p>85353992 / 84639631</p>
+                </div>
+                <div class = "contactbox">
+                    <h3>POLICE</h3>
+                    <p>85322145</p>
+                </div>
+                <div class = "contactbox">
+                    <h3>FIRE</h3>
+                    <p>85322189 / 85322402</p>
+                </div>
+                <div class = "contactbox">
+                    <h3>HOSPITAL</h3>
+                    <p>85320480</p>
+                </div>
+                <div class = "contactbox">
+                    <h3>DISASTER / RESCUE</h3>
+                    <p>85332225</p>
+                </div>
+                <h2 class = "address">ADDRESS</h2>
+                <div class = "contactbox">
+                    <p>Kalentong Shaw Boulevard,</p>
+                    <p>Daang Bakal, Mandaluyong City</p>
+                </div>
+                <div class = "motto">
+                    <h3>“ Hindi mag lilingkod ng pangsarili lang, kundi maglilingkod ng pangkalahatan!”</h3>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/time.js"></script>
+    </body>
+</html>

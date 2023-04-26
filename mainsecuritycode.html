@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body class = "password">
+        <div class = "headcon"></div>
+        <div class = "bodycon">
+            <div class = "security">
+                <img class = "img" alt = "brgy logo" src = "images/logo.png">
+                <h2 class = "title">Information System of Barangay Daang Bakal</h2>
+                <h3 class = "title2">Enter Security Code</h3>
+                <p class = "info">Please check your SMS for a message with your code</p>
+                <div class = "input">
+                    <input type = "number" placeholder = "Enter Code"/>
+                    <div class = "code">
+                        <p class = "label">Code was sent to :</p>
+                        <p class = "num">09123456789</p>
+                    </div>
+                </div>
+                <div class = "buttons">
+                    <button class = "cancel" onclick="window.location.href='mainlogin.html'">CANCEL</button>
+                    <button class = "continue" onclick="window.location.href='mainchangepassword.html'">CONTINUE</button>
+                </div>
+                <p class = "nocode" onclick="window.location.href='mainsecuritycode.html'">Didn't get a code?</p>
+                <!-- CHANGE TO PROPER LINK -->
+            </div>
+        </div>
+	</body>
+</html>
